@@ -1,0 +1,486 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 70px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.ri-menu-3-line {
+    display: none;
+}
+
+.card {
+    height: 220px;
+    width: 350px;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    background-color: #eedccb;
+    padding: 20px 18px;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.card h6 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.card h3 {
+    color: #b88e2f;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card button {
+    padding: 12px 25px;
+    cursor: pointer;
+    background-color: #eedccb;
+    border: 1px solid rgb(175, 185, 23);
+}
+
+.group {
+    height: calc(100% - 100px);
+    width: 100%;
+}
+
+.group img {
+    height: 550px;
+    width: 100%;
+}
+
+.rooms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.rooms img {
+    border-radius: 10px;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.heading {
+    padding: 16px 0px;
+}
+
+.new-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card-1 {
+    height: 446px;
+    width: 285px;
+}
+
+.card-1 img {
+    height: 290px;
+    width: 100%;
+}
+
+.card-p {
+    height: 100px;
+    width: 100%;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f4f5f7;
+}
+
+.card-p strong {
+    font-size: 24px;
+}
+
+.card-p span {
+    font-size: 16px;
+}
+
+.card-p b {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #ce8950;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-top: 10px;
+    background-color: #eedccb;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 100%;
+}
+
+.fm-d {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid black;
+    cursor: pointer;
+}
+
+footer span {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@media (min-width:1529px) {
+    .navbar ul {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .navbar {
+        img {
+            height: 40px;
+        }
+
+        h2 {
+            font-size: 35px;
+            margin-left: 5px;
+        }
+    }
+
+    .group img {
+        height: 900px;
+    }
+
+    .card {
+        position: absolute;
+        top: 30%;
+        width: 500px;
+        height: 300px;
+
+        h6 {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            font-size: 16px;
+        }
+    }
+
+    .rooms {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        img {
+            height: 550px;
+            width: 600px;
+        }
+    }
+
+    .card-1 {
+        height: 600px;
+        width: 500px;
+    }
+
+    .card-1 img {
+        height: 420px;
+        width: 100%;
+    }
+
+    .card-p {
+        height: 150px;
+        width: 100%;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #f4f5f7;
+    }
+
+    .card-p strong {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .card-p span {
+        font-size: 20px;
+    }
+
+    .card-p b {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    button {
+        font-size: 28px;
+        padding: 16px 35px;
+        color: #ce8950;
+    }
+
+    .fm-d {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            height: 80px;
+        }
+
+        h4 {
+            font-size: 32px;
+        }
+
+        span {
+            font-size: 25px;
+        }
+    }
+   footer span{
+    font-size: 30px;
+   }
+
+}
+
+@media (max-width:1529px) {
+    .rooms {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+
+    .icon {
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+
+    .fm-d {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 30px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 10px;
+        }
+    }
+
+    footer {
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .card {
+        position: absolute;
+        top: 65%;
+        right: 5%;
+        width: 290px;
+        height: 200px;
+
+        h6 {
+            font-size: 15px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+        button {
+            font-size: 10px;
+        }
+    }
+
+    .frame {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .fm-d {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 45px;
+        }
+
+        h4 {
+            font-size: 25px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    footer {
+        span {
+            font-size: 11px;
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .icon img {
+        display: none;
+    }
+
+    .ri-menu-3-line {
+        display: unset;
+        font-size: 25px;
+    }
+
+    .rooms img {
+        height: 325px;
+    }
+
+    .card {
+        top: 53%;
+        height: 150px;
+        width: 200px;
+        padding: 8px 8px;
+
+        h6 {
+            font-size: 10px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 8px;
+        }
+
+        button {
+            font-size: 8px;
+        }
+    }
+    
+.new-card img {
+    height: 250px;
+}
+
+.new-card h2 {
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    flex-direction: column;
+}
+.frame{
+    align-items: baseline;
+}
+.fm-d {
+    display: flex;
+    align-items: center;
+    img {
+        height: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+}
+}
